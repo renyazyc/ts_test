@@ -1,0 +1,16 @@
+{
+  "parser": "typescript-eslint-parser",
+  "plugins": [
+    "eslint-plugin-typescript"
+  ],
+  "rules": {
+    "eqeqeq": [
+      "error",
+      "always",
+      {
+        "null": "ignore"
+      }
+    ],
+    "typescript/class-name-casing": "error"
+  }
+}

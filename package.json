@@ -1,0 +1,47 @@
+{
+  "name": "ts_test",
+  "version": "1.0.0",
+  "description": "test typeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "debug": "node --inspect server.js",
+    "build": "rm -rf ./build && node --inspect build.js"
+  },
+  "author": "zyc",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "chokidar": "^2.0.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "ejs": "^2.6.1",
+    "eslint": "^5.2.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "opn": "^5.3.0",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.13.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
